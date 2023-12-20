@@ -141,7 +141,7 @@ enable_footnote: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: flase
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.

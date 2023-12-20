@@ -10,7 +10,7 @@ I recevied my bachelor degree in school of mechanical engineering from Shanghai 
 ## Research Interests
 My research background includes human pose estimation, low-level vision tasks, and diffusion-based visual generation.
 
-## First-Author Publication
+## First-Author Publications
 
 - **Zhengxiong Luo**, Yan Huang, Shang Li, Liang Wang, Tieniu Tan, [End-to-End Alternating Optimization for Real-World Blind Super Resolution](https://arxiv.org/abs/2308.08816), International Journal of Computer Vision (IJCV), 2023, volume 131, pp. 3152-3169.
 
