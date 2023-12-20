@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I recevied my bachelor degree in school of mechanical engineering from Shanghai Jiao Tong University (SJTU), and Ph.D degree in Institute of Automtation, Chinese Academy of Sciences (CASIA). I am currently a full-time researcher at Beijing Academy of Artificial Intelligence (BAAI).
+I received my bachelor's degree from the School of Mechanical Engineering at Shanghai Jiao Tong University (SJTU) and my Ph.D. degree from the Institute of Automation, Chinese Academy of Sciences (CASIA). I am currently a full-time researcher at the Beijing Academy of Artificial Intelligence (BAAI).
 
 
 ## Research Interests
