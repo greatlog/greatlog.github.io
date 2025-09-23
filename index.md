@@ -4,13 +4,17 @@ layout: homepage
 
 ## About Me
 
-I received my bachelor's degree from the School of Mechanical Engineering at Shanghai Jiao Tong University (SJTU) and my Ph.D. degree from the Institute of Automation, Chinese Academy of Sciences (CASIA). I am currently a full-time researcher at the Beijing Academy of Artificial Intelligence (BAAI).
+I received my bachelor’s degree in Mechanical Engineering from Shanghai Jiao Tong University (SJTU) and my Ph.D. from the Institute of Automation, Chinese Academy of Sciences (CASIA). From July 2023 to February 2025, I worked as a full-time researcher at the Beijing Academy of Artificial Intelligence (BAAI). I am currently a full-time researcher at ByteDance Seed.
 
 
 ## Research Interests
-My research background includes human pose estimation, low-level vision tasks, and diffusion-based visual generation.
+My current research focuses on unifying multimodal generation and understanding. My previous work has covered human pose estimation, low-level vision tasks, and video generation.
 
-## First-Author Publications
+## Selected Publications
+
+- Chao Liao, Liyang Liu, Xun Wang, Zhengxiong Luo, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang [Mogao: An omni foundation model for interleaved multi-modal generation](https://arxiv.org/pdf/2505.05472), arXiv preprint arXiv:2505.05472.
+
+- Xinlong Wang, Xiaosong Zhang, **Zhengxiong Luo**, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/pdf/2409.18869), arXiv preprint arXiv:2409.18869.
 
 - **Zhengxiong Luo**, Yan Huang, Shang Li, Liang Wang, Tieniu Tan, [End-to-End Alternating Optimization for Real-World Blind Super Resolution](https://arxiv.org/abs/2308.08816), International Journal of Computer Vision (IJCV), 2023, volume 131, pp. 3152-3169.
 
