@@ -12,7 +12,7 @@ My current research focuses on unifying multimodal generation and understanding.
 
 ## Selected Publications
 
-- Chao Liao, Liyang Liu, Xun Wang, Zhengxiong Luo, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang [Mogao: An omni foundation model for interleaved multi-modal generation](https://arxiv.org/pdf/2505.05472), arXiv preprint arXiv:2505.05472.
+- Chao Liao, Liyang Liu, Xun Wang, **Zhengxiong Luo**, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang [Mogao: An omni foundation model for interleaved multi-modal generation](https://arxiv.org/pdf/2505.05472), arXiv preprint arXiv:2505.05472.
 
 - Xinlong Wang, Xiaosong Zhang, **Zhengxiong Luo**, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang [Emu3: Next-Token Prediction is All You Need](https://arxiv.org/pdf/2409.18869), arXiv preprint arXiv:2409.18869.
 
