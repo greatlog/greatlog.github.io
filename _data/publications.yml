@@ -9,7 +9,7 @@ main:
 
   - title: "Emu3: Next-Token Prediction is All You Need"
     authors: Xinlong Wang, Xiaosong Zhang, <strong>Zhengxiong Luo</strong>, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang
-    conference_short: arXiv
+    conference_short: Nature
     conference: arXiv preprint arXiv:2409.18869, 2024.
     pdf: https://arxiv.org/pdf/2409.18869
     code: https://github.com/baaivision/Emu3
@@ -18,7 +18,7 @@ main:
   
   - title: "Autoregressive video generation without vector quantization"
     authors: Haoge Deng, Ting Pan, Haiwen Diao, <strong>Zhengxiong Luo</strong>, Yufeng Cui, Huchuan Lu, Shiguang Shan, Yonggang Qi, Xinlong Wang
-    conference_short: arXiv
+    conference_short: ICLR
     conference: arXiv preprint arXiv:2603.07102, 2026.
     pdf: https://arxiv.org/pdf/2412.14169
     image: ./assets/img/papers/nova.png
