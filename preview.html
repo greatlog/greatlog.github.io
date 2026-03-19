@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Zhengxiong Luo | ByteDance Seed</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zhengxiong Luo is a full-time researcher at ByteDance Seed, working on multimodal generation and understanding, video generation, and low-level vision.">
+    <meta name="keywords" content="Zhengxiong Luo, computer vision, multimodal generation, video generation, super resolution, human pose estimation, deep learning">
+
+    <link rel="icon" href="./assets/img/favicon.png" type="image/png" />
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css crossorigin=anonymous>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css crossorigin=anonymous>
+
+    <style>
+      /* font_sans_serif.css */
+      body {
+        background-color: #fff;
+        padding:50px;
+        font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color:#595959;
+        font-weight:400;
+      }
+
+      /* minimal-light-no-dark-mode.scss (inlined) */
+      .pub-row { display: flex; align-items: center; }
+      .social-icons a { display:inline-block; height:2.4rem; width:2.4rem; background-color:transparent; color:#043361!important; border-radius:100%; text-align:center; font-size:1.15rem; line-height:2.5rem; margin-right:1rem }
+      .social-icons a:last-child { margin-right:0 }
+      .social-icons a:hover { background-color:white; color:black; transform: scale(1.2) }
+      email { font-size: 14px; font-family: "Ubuntu Mono"; }
+      autocolor { color:#595959; }
+      .image { border-radius: 0.35em; border: 0; display: inline-block; position: relative; }
+      .image.avatar { border-radius: 100%; }
+      .image.avatar img { border-radius: 100%; width: 45%; padding: 20px; }
+      #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
+      h3, h4, h5, h6 { font-weight: 600; color:#043361; margin:0 0 20px; }
+      h1 { font-weight: 500; color:#043361; margin:0 0 20px; font-size:28px; }
+      h2 { color:#043361; font-weight: 500; margin:2px 0px 15px; font-size: 157%; }
+      h1, h2, h3 { line-height:1.1; }
+      p, ul, ol, table, pre, dl { margin:0 0 20px; }
+      a { color:#39c; text-decoration:none; }
+      a:hover { color:#069; }
+      a small { font-size:11px; color:#777; margin-top:-0.3em; display:block; }
+      .wrapper { width:960px; margin:0 auto; }
+      strong { color:#222; font-weight:500; }
+      section { width:650px; float:right; padding-top:4.0em; padding-bottom:50px; }
+      small { font-size:11px; }
+      img { max-width:100%; }
+      header { width:232px; float:left; position:fixed; -webkit-font-smoothing:subpixel-antialiased; padding-top:4.0em; text-align:center }
+      @media print, screen and (max-width: 960px) {
+        .pub-row { display: flex; align-items: center; }
+        div.wrapper { width:auto; margin:0; }
+        header, section, footer { float:none; position:static; width:auto; }
+        header { padding-right:320px; }
+        section { border:1px solid #e5e5e5; border-width:1px 0; padding:20px 0; margin:0 0 20px; }
+        .image.avatar img { border-radius: 100%; width: 117px; padding:20px; }
+      }
+      @media print, screen and (max-width: 960px) {
+        body { word-wrap:break-word; padding:15px; }
+        .pub-row { display: flex; align-items: center; }
+        header { padding:0; }
+      }
+      @media print, screen and (max-width: 480px) {
+        .pub-row { display: block; align-items: center; }
+        body { padding:15px; }
+        .image.avatar img { border-radius: 100%; width: 95px; padding:20px; }
+      }
+
+      /* publications-no-dark-mode.css (inlined) */
+      .badge { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; color: #fff !important; border-radius: 0.125rem; box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); }
+      :root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; }
+      .publications { margin-top: 2rem; }
+      .publications h2 { margin-bottom: 1rem; }
+      .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+      .publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+      .publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
+      .publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
+      .publications ol.bibliography li .title { font-weight: bolder; }
+      .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; margin-right: 0.25rem; margin-bottom: 0.25rem; text-decoration: none; font-size: 12px; display: inline-block; border-radius: 3px; }
+      .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+      .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+      .publications ol.bibliography li .teaser:hover { transform: scale(1.03); box-shadow: 4px 4px 10px #666; }
+      .citation-banner { text-align: left; }
+      .citation-banner img { height: 22px; }
+      .pub-row { display: flex; flex-wrap: wrap; }
+      @media print, screen and (min-width: 480px) { .col-sm-9 { width: 100%; } }
+      @media screen and (max-width: 480px) {
+        .publications ol.bibliography li .abbr { height: auto; margin-bottom: 0.25rem; }
+        .publications ol.bibliography li .teaser { width: 100%; height: auto; max-height: 160px; }
+        .pub-row .col-sm-3 { width: 100%; padding-left: 0 !important; padding-right: 0 !important; }
+        .pub-row .col-sm-9 { padding-left: 0 !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a class="image avatar"><img src="./assets/img/lzx.png" alt="avatar" /></a>
+        <h1>Zhengxiong Luo</h1>
+        <position style="font-size:1.10rem;">full-time researcher</position>
+        <br>
+        <autocolor>ByteDance Seed</autocolor>
+        <br>
+        <email>lzxlog@qq.com</email>
+        <br><br>
+        <div class="social-icons">
+          <a style="margin: 0 5px 0 0" href="https://scholar.google.com.hk/citations?user=Sz1yTZsAAAAJ&hl=zh-CN">
+            <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+          </a>
+          <a style="margin: 0 5px 0 0" href="https://github.com/greatlog">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <br>
+        <div class="citation-banner">
+          <a href="https://scholar.google.com.hk/citations?user=Sz1yTZsAAAAJ&hl=zh-CN" target="_blank">
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fgreatlog%2Fgreatlog.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar Citations">
+          </a>
+        </div>
+        <br>
+      </header>
+      <section>
+
+        <h2>About Me</h2>
+        <p>I received my bachelor's degree in Mechanical Engineering from Shanghai Jiao Tong University (SJTU) and my Ph.D. from the Institute of Automation, Chinese Academy of Sciences (CASIA). From July 2023 to February 2025, I worked as a full-time researcher at the Beijing Academy of Artificial Intelligence (BAAI). I am currently a full-time researcher at ByteDance Seed.</p>
+
+        <h2>Research Interests</h2>
+        <p>My current research focuses on unifying multimodal generation and understanding. My previous work has covered human pose estimation, low-level vision tasks, and video generation.</p>
+
+        <!-- Publications -->
+        <h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications <a href="https://scholar.google.com.hk/citations?user=Sz1yTZsAAAAJ&hl=zh-CN" target="_blank" style="font-size:0.8rem; text-decoration:none;">[Full List]</a></h2>
+
+        <div class="publications">
+        <ol class="bibliography">
+
+        <!-- 1. Mogao -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/mogao.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">arXiv</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/pdf/2505.05472">Mogao: An Omni Foundation Model for Interleaved Multi-Modal Generation</a></div>
+            <div class="author">Chao Liao, Liyang Liu, Xun Wang, <strong>Zhengxiong Luo</strong>, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang</div>
+            <div class="periodical"><em>arXiv preprint arXiv:2505.05472, 2025.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/pdf/2505.05472" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 2. Emu3 -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/emu3.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">arXiv</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/pdf/2409.18869">Emu3: Next-Token Prediction is All You Need</a></div>
+            <div class="author">Xinlong Wang, Xiaosong Zhang, <strong>Zhengxiong Luo</strong>, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang</div>
+            <div class="periodical"><em>arXiv preprint arXiv:2409.18869, 2024.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/pdf/2409.18869" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+              <a href="https://github.com/baaivision/Emu3" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+              <a href="https://emu.baai.ac.cn" class="btn btn-sm z-depth-0" role="button" target="_blank">Project Page</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 3. RealDAN (IJCV) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/realdan.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">IJCV</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/abs/2308.08816">End-to-End Alternating Optimization for Real-World Blind Super Resolution</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan</div>
+            <div class="periodical"><em>International Journal of Computer Vision <strong>(IJCV)</strong>, 2023, volume 131, pp. 3152-3169.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2308.08816" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+              <a href="https://github.com/greatlog/RealDAN" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 4. VideoFusion (CVPR 2023) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/videofusion.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">CVPR</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/abs/2303.08320">VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Dayou Chen, Yingya Zhang, Yan Huang, Liang Wang, Yujun Shen, Deli Zhao, Jinren Zhou, Tieniu Tan</div>
+            <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023, pp. 10209-10218.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2303.08320" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 5. Degradation Distribution (CVPR 2022) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/degsr.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">CVPR</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/abs/2203.04962">Learning the Degradation Distribution for Deep Blind Super Resolution</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan</div>
+            <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022, pp. 6063-6072.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2203.04962" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+              <a href="https://github.com/greatlog/UnpairedSR" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 6. Heatmap Regression (CVPR 2021) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/heatmap.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">CVPR</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Rethinking_the_Heatmap_Regression_for_Bottom-Up_Human_Pose_Estimation_CVPR_2021_paper.pdf">Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Zhicheng Wang, Yan Huang, Liang Wang, Tieniu Tan, Erjin Zhou</div>
+            <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2021, pp. 13264-13273.</em></div>
+            <div class="links">
+              <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Rethinking_the_Heatmap_Regression_for_Bottom-Up_Human_Pose_Estimation_CVPR_2021_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 7. Pose Estimation (ICME 2021) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/pose.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">ICME</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://arxiv.org/abs/2012.07033">Efficient Human Pose Estimation by Learning Deeply Aggregated Representations</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Zhicheng Wang, Yuanhao Cai, Guan Wang, Yan Huang, Liang Wang, Tieniu Tan, Jian Sun</div>
+            <div class="periodical"><em>IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2021, pp. 1-6.</em></div>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2012.07033" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        <!-- 8. DAN (NeurIPS 2020) -->
+        <li>
+        <div class="pub-row">
+          <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+            <img src="./assets/img/papers/dan.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+            <abbr class="badge">NeurIPS</abbr>
+          </div>
+          <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+            <div class="title"><a href="https://proceedings.neurips.cc/paper/2020/file/3d2d8ccb37df977cb6d9da15b76c3f3a-Paper.pdf">Unfolding the Alternating Optimization for Blind Super Resolution</a></div>
+            <div class="author"><strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan</div>
+            <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2020, volume 33, pp. 5632-5643.</em></div>
+            <div class="links">
+              <a href="https://proceedings.neurips.cc/paper/2020/file/3d2d8ccb37df977cb6d9da15b76c3f3a-Paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+              <a href="https://github.com/greatlog/DAN" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+        </li>
+        <br>
+
+        </ol>
+        </div>
+
+        <br>
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>

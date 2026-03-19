@@ -92,6 +92,15 @@
         </div>
         <br>
 
+        {% if site.google_scholar_stats_use_cdn %}
+        <div class="citation-banner">
+          <a href="{{ site.google_scholar }}" target="_blank">
+            <img src="https://img.shields.io/endpoint?url={{ site.google_scholar_stats_cdn_url }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar Citations">
+          </a>
+        </div>
+        <br>
+        {% endif %}
+
       </header>
       <section>
 

@@ -1,22 +1,69 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Mogao: An Omni Foundation Model for Interleaved Multi-Modal Generation"
+    authors: Chao Liao, Liyang Liu, Xun Wang, <strong>Zhengxiong Luo</strong>, Xinyu Zhang, Wenliang Zhao, Jie Wu, Liang Li, Zhi Tian, Weilin Huang
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2505.05472, 2025.
+    pdf: https://arxiv.org/pdf/2505.05472
+    image: ./assets/img/papers/mogao.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  - title: "Emu3: Next-Token Prediction is All You Need"
+    authors: Xinlong Wang, Xiaosong Zhang, <strong>Zhengxiong Luo</strong>, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2409.18869, 2024.
+    pdf: https://arxiv.org/pdf/2409.18869
+    code: https://github.com/baaivision/Emu3
+    page: https://emu.baai.ac.cn
+    image: ./assets/img/papers/emu3.png
+  
+  - title: "Autoregressive video generation without vector quantization"
+    authors: Haoge Deng, Ting Pan, Haiwen Diao, <strong>Zhengxiong Luo</strong>, Yufeng Cui, Huchuan Lu, Shiguang Shan, Yonggang Qi, Xinlong Wang
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2603.07102, 2026.
+    pdf: https://arxiv.org/pdf/2412.14169
+    image: ./assets/img/papers/nova.png
+
+  - title: "End-to-End Alternating Optimization for Real-World Blind Super Resolution"
+    authors: <strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan
+    conference_short: IJCV
+    conference: International Journal of Computer Vision <strong>(IJCV)</strong>, 2023, volume 131, pp. 3152-3169.
+    pdf: https://arxiv.org/abs/2308.08816
+    code: https://github.com/greatlog/RealDAN
+    image: ./assets/img/papers/realdan.png
+
+  - title: "VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation"
+    authors: <strong>Zhengxiong Luo</strong>, Dayou Chen, Yingya Zhang, Yan Huang, Liang Wang, Yujun Shen, Deli Zhao, Jinren Zhou, Tieniu Tan
     conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023, pp. 10209-10218.
+    pdf: https://arxiv.org/abs/2303.08320
+    image: ./assets/img/papers/videofusion.png
+
+  - title: "Learning the Degradation Distribution for Deep Blind Super Resolution"
+    authors: <strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022, pp. 6063-6072.
+    pdf: https://arxiv.org/abs/2203.04962
+    code: https://github.com/greatlog/UnpairedSR
+    image: ./assets/img/papers/degsr.png
+
+  - title: "Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation"
+    authors: <strong>Zhengxiong Luo</strong>, Zhicheng Wang, Yan Huang, Liang Wang, Tieniu Tan, Erjin Zhou
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2021, pp. 13264-13273.
+    pdf: https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Rethinking_the_Heatmap_Regression_for_Bottom-Up_Human_Pose_Estimation_CVPR_2021_paper.pdf
+    image: ./assets/img/papers/heatmap.png
+
+  - title: "Efficient Human Pose Estimation by Learning Deeply Aggregated Representations"
+    authors: <strong>Zhengxiong Luo</strong>, Zhicheng Wang, Yuanhao Cai, Guan Wang, Yan Huang, Liang Wang, Tieniu Tan, Jian Sun
+    conference_short: ICME
+    conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2021, pp. 1-6.
+    pdf: https://arxiv.org/abs/2012.07033
+    image: ./assets/img/papers/pose.png
+
+  - title: "Unfolding the Alternating Optimization for Blind Super Resolution"
+    authors: <strong>Zhengxiong Luo</strong>, Yan Huang, Shang Li, Liang Wang, Tieniu Tan
+    conference_short: NeurIPS
+    conference: Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2020, volume 33, pp. 5632-5643.
+    pdf: https://proceedings.neurips.cc/paper/2020/file/3d2d8ccb37df977cb6d9da15b76c3f3a-Paper.pdf
+    code: https://github.com/greatlog/DAN
+    image: ./assets/img/papers/dan.png
