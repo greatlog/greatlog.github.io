@@ -7,6 +7,13 @@ main:
     pdf: https://arxiv.org/pdf/2505.05472
     image: ./assets/img/papers/mogao.png
 
+  - title: "CI-VID: A Coherent Interleaved Text-Video Dataset"
+    authors: Yiming Ju, Jijin Hu, <strong>Zhengxiong Luo</strong>, Haoge Deng, hanyu Zhao, Li Du, Chengwei Wu, Donglin Hao, Xinlong Wang, Tengfei Pan
+    conference_short: CVPR
+    conference: arXiv preprint arXiv:2507.01938, 2025.
+    pdf: https://arxiv.org/pdf/2507.01938
+    image: ./assets/img/papers/ci_vid.png
+
   - title: "Emu3: Next-Token Prediction is All You Need"
     authors: Xinlong Wang, Xiaosong Zhang, <strong>Zhengxiong Luo</strong>, Quan Sun, Yufeng Cui, Jinsheng Wang, Fan Zhang, Yueze Wang, Zhen Li, Qiying Yu, Yingli Zhao, Yulong Ao, Xuebin Min, Tao Li, Boya Wu, Bo Zhao, Bowen Zhang, Liangdong Wang, Guang Liu, Zheqi He, Xi Yang, Jingjing Liu, Yonghua Lin, Tiejun Huang, Zhongyuan Wang
     conference_short: Nature
