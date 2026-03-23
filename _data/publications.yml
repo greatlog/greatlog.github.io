@@ -12,6 +12,7 @@ main:
     conference_short: CVPR
     conference: arXiv preprint arXiv:2507.01938, 2025.
     pdf: https://arxiv.org/pdf/2507.01938
+    code: https://github.com/ymju-BAAI/CI-VID
     image: ./assets/img/papers/ci_vid.png
 
   - title: "Emu3: Next-Token Prediction is All You Need"
