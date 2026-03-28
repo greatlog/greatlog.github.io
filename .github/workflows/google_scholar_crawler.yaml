@@ -19,12 +19,33 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip install -r requirements.txt
+      - name: Resolve Google Scholar ID
+        run: |
+          GS_ID="$(python - <<'PY'
+import re
+from pathlib import Path
+
+content = Path('_config.yml').read_text(encoding='utf-8')
+match = re.search(r'^\s*google_scholar:\s*(.+)\s*$', content, re.MULTILINE)
+if not match:
+    print("")
+    raise SystemExit(0)
+
+url = match.group(1).strip().strip('"').strip("'")
+user_match = re.search(r'[?&]user=([^&]+)', url)
+print(user_match.group(1) if user_match else "")
+PY
+)"
+          if [ -z "${GS_ID}" ]; then
+            echo "Failed to resolve Google Scholar ID from _config.yml"
+            exit 1
+          fi
+          echo "GOOGLE_SCHOLAR_ID=${GS_ID}" >> "${GITHUB_ENV}"
+          echo "GOOGLE_SCHOLAR_URL=$(grep '^google_scholar:' _config.yml | sed 's/^google_scholar:[[:space:]]*//')" >> "${GITHUB_ENV}"
       - name: Run crawler
         run: |
           cd ./google_scholar_crawler
           python main.py
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
       - name: Push citation data
         run: |
           cd ./google_scholar_crawler/results
@@ -33,5 +54,9 @@ jobs:
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add *.json
+          if git diff --cached --quiet; then
+            echo "No citation data changes to commit."
+            exit 0
+          fi
           git commit -m "Updated Citation Data"
           git push "${remote_repo}" HEAD:google-scholar-stats --force
